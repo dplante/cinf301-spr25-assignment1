@@ -1,0 +1,270 @@
+/*GOOGLEFONT1*/
+@font-face {
+    font-family: 'Space Grotesk';
+    src: url('/first-page/css/fonts/SpaceGrotesk-VariableFont_wght.ttf') format('truetype');
+}
+
+/*GOOGLEFONT2*/
+@font-face {
+    font-family: 'Orbitron';
+    src: url('/first-page/css/fonts/Orbitron-VariableFont_wght.ttf') format('truetype');
+}
+
+body {
+    font-family: 'Arial', sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #f8f8f8;
+    color: #333;
+}
+
+/* Header Styles */
+.header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: #282c34;
+    color: white;
+    padding: 10px 20px;
+    flex-direction: column;
+}
+
+#logo {
+    max-height: 70px;
+}
+
+.header h1 {
+    margin: 0;
+    font-size: 2.5em;
+    font-family: 'Orbitron', sans-serif;
+}
+
+/* Navigation Styles */
+.nav {
+    padding: 10px 0;
+    margin-right: 20px;
+    text-align: center;
+    display: flex;
+    justify-content: right;
+}
+
+.nav > ul {
+    display: flex;
+    gap: 20px;
+    list-style: none;
+    padding: 0;
+    margin: 0;
+}
+
+.nav a {
+    color: white;
+    text-decoration: none;
+    margin: 0 15px;
+    font-weight: bold;
+}
+
+.nav a:hover {
+    text-decoration: underline;
+}
+
+/* Main Content Styles */
+#bandphoto {
+    width: 100%;
+    height: auto;
+}
+
+.main {
+    padding: 20px;
+    max-width: 1200px;
+    margin: 0 auto;
+}
+
+.section {
+    margin-bottom: 40px;
+}
+
+/* Generic h2 styling for all h2 elements */
+h2 {
+    font-size: 2em;
+    margin-bottom: 10px;
+    color: #282c34;
+    font-family: 'Space Grotesk', sans-serif;
+}
+
+.section h3 {
+    font-size: 1.5em;
+    margin-bottom: 10px;
+    color: #282c34;
+    font-family: 'Space Grotesk', sans-serif;
+}
+
+.section li {
+    margin-bottom: 10px;
+    line-height: 1.5;
+}
+
+.section p {
+    line-height: 1.2;
+}
+
+/* Aside Styles */
+.aside {
+    background-color: #2121e600;
+    padding: 20px;
+    border-radius: 5px;
+    margin: auto;
+    margin-bottom: 20px;
+    align-items: center;
+    text-align: center;
+    font-family: 'Space Grotesk', sans-serif;
+}
+
+/* Footer Styles */
+.footer {
+    background-color: #282c34;
+    color: white;
+    text-align: center;
+    padding: 10px 0;
+    position: fixed;
+    width: 100%;
+    bottom: 0;
+    align-items: center;
+}
+
+.footer p {
+    margin: 0;
+}
+
+/* Responsive Styles */
+@media (max-width: 768px) {
+    .header h1 {
+        font-size: 2em;
+    }
+
+    .nav a {
+        display: block;
+        margin: 10px 0;
+    }
+
+    .main {
+        padding: 10px;
+    }
+
+    .section h2 {
+        font-size: 1.5em;
+    }
+}
+
+.table {
+    display: table;
+    width: 100%;
+    border-collapse: collapse;
+    margin: 20px 0;
+}
+
+/* Table Header */
+.table-header {
+display: table-header-group;
+background-color: #333;
+color: #fff;
+}
+
+.table-header .table-row {
+display: table-row;
+}
+
+/* Table Body */
+.table-body {
+display: table-row-group;
+}
+
+/* Table Rows and Cells */
+.table-row {
+display: table-row;
+}
+
+.table-cell {
+display: table-cell;
+padding: 10px;
+text-align: left;
+border: 1px solid #ddd;
+}
+
+/* Alternating Row Colors in the Table Body */
+.table-body .table-row:nth-child(odd) {
+background-color: #f2f2f2;
+}
+
+.table-body .table-row:nth-child(even) {
+background-color: #fff;
+}
+
+/* Members Section */
+.members {
+    text-align: center;
+    padding: 20px;
+    max-width: 1200px;
+    margin: auto;
+}
+
+/* Grid Layout for Members */
+.members {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(250px, 1fr)); /* Responsive grid */
+    gap: 20px;
+    padding: 20px;
+}
+
+/* Member Image Styling */
+.member img {
+    width: 100%;
+    max-width: 250px;
+    height: 250px;
+    object-fit: cover;
+    border-radius: 8px;
+}
+
+/* Member Description */
+.member p {
+    font-size: 14px;
+    margin-top: 10px;
+    max-width: 250px;
+    color: #333;
+    text-align: center;
+}
+
+/* Responsive Design for Members Section */
+@media (max-width: 768px) {
+    .members {
+        grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+    }
+    
+    .member img {
+        max-width: 200px;
+        height: 200px;
+    }
+
+    .member p {
+        max-width: 200px;
+    }
+}
+
+button {
+    background-color: #333;
+    color: white;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px;
+    text-decoration: none;
+    cursor: pointer;
+}
+
+button:hover {
+    background-color: #555;
+}
+
+button a {
+    color: white;
+    text-decoration: none;
+    /* If you intended to set a font size, use "font-size: 20px;" instead */
+}
