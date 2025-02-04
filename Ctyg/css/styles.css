@@ -1,0 +1,129 @@
+/* General Reset */
+body, h1, h2, h3, p, table {
+    margin: 0;
+    padding: 0;
+}
+
+/* Apply Fonts */
+body {
+    font-family: 'Open Sans', sans-serif;
+    background-color: #f4f4f4;
+}
+
+header {
+    background-color: #333;
+    color: white;
+    padding: 20px;
+    text-align: center;
+    font-family: 'Roboto', sans-serif;
+}
+
+/* Navigation Styling */
+nav {
+    background-color: #444;
+    padding: 10px;
+    text-align: center;
+}
+
+nav a {
+    color: white;
+    margin: 0 15px;
+    text-decoration: none;
+}
+
+/* Section Styling */
+section {
+    padding: 20px;
+    margin: 10px;
+    background-color: white;
+    border-radius: 8px;
+    box-shadow: 0px 2px 4px rgba(0, 0, 0, 0.1);
+}
+
+/* Main Content Styling */
+main {
+    display: grid;
+    grid-template-columns: 1fr 3fr;
+    gap: 20px;
+    padding: 20px;
+}
+
+.aside {
+    background-color: #eaeaea;
+    padding: 10px;
+    border-radius: 8px;
+}
+
+/* Table Styling */
+table {
+    width: 100%;
+    border-collapse: collapse;
+    margin-top: 20px;
+}
+
+th {
+    background-color: #333;
+    color: #fff;
+    padding: 10px;
+    text-align: left;
+}
+
+td {
+    padding: 10px;
+    text-align: left;
+}
+
+tr:nth-child(even) {
+    background-color: #f2f2f2; /* Lighter background for even rows */
+    font-family: 'Noto Sans Elymaic', serif; /* GOOGLEFONT1 */
+}
+
+tr:nth-child(odd) {
+    background-color: white;
+    font-family: "Dancing Script", serif; /* GOOGLEFONT2 */
+}
+
+tr:hover {
+    background-color: #ddd; /* Add hover effect on rows */
+}
+
+/* Footer Styling */
+footer {
+    background-color: #333;
+    color: white;
+    padding: 10px;
+    text-align: center;
+}
+
+/* Image Styling */
+.image {
+    max-width: 100%;
+    height: auto;
+    border-radius: 8px;
+}
+
+/* Icon Styling */
+.icon {
+    font-size: 30px;
+    color: #333;
+    margin: 0 10px;
+}
+
+.section-title {
+    font-family: 'Roboto', sans-serif;
+    color: #333;
+}
+
+/* Google Fonts Styling */
+.noto-sans-elymaic-regular {
+    font-family: "Noto Sans Elymaic", serif;
+    font-weight: 400;
+    font-style: normal;
+}
+
+.dancing-script-basic {
+    font-family: "Dancing Script", serif;
+    font-optical-sizing: auto;
+    font-weight: 400;
+    font-style: normal;
+}
