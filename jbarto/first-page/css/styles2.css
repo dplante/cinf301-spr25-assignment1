@@ -20,28 +20,29 @@ header {
     font-family: "Oswald", sans-serif;
 }
 
-/* NAVIGATION */
-nav ul {
-    display: flex;
-    justify-content: center;
-    list-style: none;
-    padding: 10px;
-    background-color: #444;
+/* MAIN TABLE */
+main table {
+    width: 100%;
+    border-collapse: collapse;
+    margin-top: 20px;
 }
 
-nav ul li {
-    margin: 0 15px;
+/* MAIN TABLE CELLS */
+main table td {
+    padding: 20px;
+    background: white;
+    border: 2px solid #ddd;
 }
 
-nav ul li a {
-    color: white;
-    text-decoration: none;
-    font-weight: bold;
+/* HOVER EFFECT FOR TABLE ROWS */
+main table td:hover {
+    background-color: #e0f7fa; /* Light blue hover */
+    transition: background-color 0.3s ease-in-out;
 }
 
 /* SECTIONS */
 section {
-    margin: 20px;
+    margin: 10px 0;
     padding: 20px;
     background: white;
     border-radius: 10px;
@@ -49,9 +50,10 @@ section {
 }
 
 /* TABLE STYLING */
-table {
+section table {
     width: 100%;
     border-collapse: collapse;
+    margin-top: 10px;
 }
 
 th, td {
@@ -83,5 +85,6 @@ footer {
     padding: 10px;
     background-color: #222;
     color: white;
+    margin-top: 20px;
 }
 
