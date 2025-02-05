@@ -1,0 +1,161 @@
+html {
+    overflow-y: hidden;
+}
+
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #f4f4f4;
+    display:flex;
+    align-items: flex-start;
+    background-color: #000;
+    opacity: 1;
+}
+
+header {
+    background-color: #000;
+    color: #fff;
+    padding: 10px;
+    text-align: left;
+    justify-content: left;
+    width:fit-content;
+    margin:0;
+}
+button {
+    background-color: #333;
+    color: #fff;
+    border: none;
+    padding: 10px 20px;
+    cursor: pointer;
+}
+button:hover {
+    background-color: #555;
+}
+#even-row{
+    background-color:#ff9933;
+}
+#odd-row{
+    background-color: #68b326;
+}
+
+#werewolf-music{
+    font-weight:600;
+    font-size:8.6em;
+    writing-mode: vertical-rl;
+    -webkit-writing-mode: vertical-rl;
+    -ms-writing-mode: vertical-rl;
+    margin:0;
+    padding:0;
+}
+#mgultra{
+    max-height: 700px;
+    width:auto;
+}
+aside.imgcontainer{
+    right:0;
+    justify-content: right;
+    align-items: right;
+    margin:0;
+    padding: 0;
+    padding-left: 1px;
+    width:auto;
+}
+table{
+    background-color: #f4f4f4;
+    width:100%;
+    text-align: center;
+    border-color: #880808;
+    font-size:22px;
+    bottom:0;
+}
+main{
+    display: grid;
+    grid-template-columns: 1fr auto;
+    gap: 0px;
+    align-items: start;
+    grid-column: 1/2;
+    max-width:60%;
+
+}
+.table-header{
+    font-size: 1.5em;
+    background-color: #000;
+    color: #fff;
+    padding: 10px;
+    text-align: center;
+    justify-content: center;
+    width:fit-content;
+    margin:0;
+}
+tr{
+    color: #FFF;
+    width: 1000px;
+}
+.album-year{
+    font-style: italic;
+}
+.album-name{
+    font-weight: bold;
+}
+footer{
+    grid-column:1/2;
+}
+footer p{
+    background-color: #000;
+    color: #fff;
+    padding: 10px;
+    text-align: center;
+    justify-content: center;
+    width:fit-content;
+    margin:0;
+    bottom:0;
+}
+section{
+    gap: 0px;
+    align-items: start;
+    grid-column: 1/2;
+}
+section h2{
+    background-color: #000;
+    color: #fff;
+    padding: 10px;
+    text-align: center;
+    justify-content: center;
+    width:fit-content;
+    margin:0;
+}
+section p{
+    background-color: #000;
+    color: #fff;
+    padding: 10px;
+    text-align: center;
+    justify-content: center;
+    width:fit-content;
+    margin:0;
+}
+#machinegirl {
+    max-width: 100%;
+    height: auto;
+    display: block;
+    margin: 0 auto;
+}
+/*GOOGLEFONT1*/
+.bebas-neue-regular {
+    font-family: "Bebas Neue", serif;
+    font-weight: 400;
+    font-style: normal;
+  }
+h2{
+    font-size:2em;
+    width:70%;
+    justify-self: right;
+}
+/*GOOGLEFONT2*/
+.caveat{
+    font-family: "Caveat", serif;
+    font-optical-sizing: auto;
+    font-weight: 500;
+    font-style: normal;
+    font-size:1.5em;
+  }
