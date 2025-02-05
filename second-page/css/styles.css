@@ -1,0 +1,156 @@
+/* Base styles */
+:root {
+    --f1-red: #e10600;
+    --f1-dark: #15151e;
+    --f1-grey: #38383f;
+    --f1-white: #ffffff;
+    --heading-font: 'Racing Sans One', sans-serif; /*GOOGLEFONT1*/
+    --para-font: 'Oswald', sans-serif; /*GOOGLEFONT2*/
+}
+
+body {
+    margin: 0;
+    padding: 0;
+    font-family: var(--heading-font);
+    background-color: var(--f1-dark);
+    color: var(--f1-white);
+}
+
+/* Header and Navigation */
+.header {
+    background-color: var(--f1-red);
+    padding: 1rem;
+}
+
+.navbar {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 0 2rem;
+}
+
+.navbar img {
+    height: 40px;
+}
+
+.nav-links {
+    display: flex;
+    gap: 2rem;
+}
+
+.nav-links a {
+    color: var(--f1-white);
+    text-decoration: none;
+    font-weight: bold;
+}
+
+.nav-links a:hover {
+    color: var(--f1-dark);
+}
+
+/* Main Content */
+.main {
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 2rem;
+}
+
+.content-section {
+    margin-bottom: 3rem;
+}
+
+.about {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 2rem;
+}
+
+h1, h2 {
+    color: var(--f1-red);
+}
+
+p {
+    font-family: var(--para-font);
+}
+
+/* Standings Table */
+.standings {
+    width: 100%;
+    margin: 1rem 0;
+}
+
+.table-header {
+    display: flex;
+    justify-content: space-between;
+    background-color: var(--f1-red);
+    padding: 1rem;
+}
+
+.header-cell {
+    color: var(--f1-white);
+    font-weight: bold;
+    flex: 1;
+    text-align: left;
+}
+
+.table-row {
+    display: flex;
+    justify-content: space-between;
+    padding: 1rem;
+    border-bottom: 1px solid var(--f1-grey);
+    font-family: var(--para-font);
+}
+
+.table-row > * {
+    flex: 1;
+    text-align: left;
+}
+
+.table-row:nth-child(odd) {
+    background-color: var(--f1-grey);
+}
+
+.table-row:hover {
+    color: var(--f1-red);
+}
+
+/* Gallery */
+.gallery {
+    display: flex;
+    justify-content: center;
+    gap: 2rem;
+    margin: 2rem 0;
+}
+
+.gallery img {
+    width: 25vw;
+    height: auto;
+}
+
+/* Partner Logos */
+.partner-logos {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 2rem;
+    margin: 2rem 0;
+}
+
+.partner-logos img {
+    height: 60px;
+    margin: 0.5em;
+}
+
+/* Footer */
+.footer {
+    text-align: center;
+    padding: 2rem;
+    background-color: var(--f1-grey);
+    color: var(--f1-white);
+}
+
+#group-image {
+    width: 50vw;
+    height: auto;
+}
