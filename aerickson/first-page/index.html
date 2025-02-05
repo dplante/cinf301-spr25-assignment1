@@ -4,12 +4,13 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>My First Page</title>
-
-    <!-- Google Fonts -->
+    
+    <!-- GOOGLEFONT1 -->
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Quicksand:wght@300..700&display=swap" rel="stylesheet">
     
+    <!-- GOOGLEFONT2 -->
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Iceland&family=Quicksand:wght@300..700&display=swap" rel="stylesheet">
@@ -21,66 +22,79 @@
     <link rel="stylesheet" href="css/style.css">
 </head>
 <body>
-
+<!-- included <header> -->
     <header>
-        <h1>Welcome to My Web Page</h1>
+        <h1>Awesome Animals</h1>
+        <!-- included <nav> -->
         <nav>
             <ul>
                 <li><a href="#">Favorites</a></li>
-                <li><a href="#">All</a></li>
-                <li><a href="#">Alphabetical</a></li>
+                <li><a href="#">Gallery</a></li>
             </ul>
         </nav>
     </header>
 
+    <!-- included <main> -->
     <main>
+        <!-- included <section> -->
         <section>
             <h2>About This Site</h2>
-            <p>This webpage is dedicated to animal pictures</p>
-            <i class="fa-solid fa-kiwi-bird"></i> <!-- FONTAWESOME1 -->
+            <p>This webpage is dedicated to some of my favorite animal pictures</p>
+            <!-- FONTAWESOME1 -->
+            <i class="fa-solid fa-kiwi-bird"></i> 
         </section>
 
         <section>
-            <h2>Some Animals</h2>
-            <img src="images/Theo.jpg" alt="A cute cat" width="300">
-            <img src="images/Capy.jpg" alt="An adorable otter" width="300">
+            <h2>Animals of the Week</h2>
+            <!-- IMAGE1 -->
+            <img id="theo-img" src="images/Theo.jpg" alt="Cat" width="20%">
+            <!-- IMAGE2 -->
+            <img id="capybara-img" src="images/Capy.jpg" alt="Capybara" width="20%">
         </section>
  
+        <!-- included <article> -->
         <article>
-            <h2>Some Favorite Animals</h2>
+            <h2>Our User's Favorite Animals</h2>
             <table>
                 <thead>
                     <tr>
                         <th>Asia</th>
                         <th>Gillian</th>
+                        <th>William</th>
                     </tr>
                 </thead>
                 <tbody>
                     <tr>
                         <td>Cat</td>
                         <td>Otter</td>
+                        <td>Turtle</td>
                     </tr>
                     <tr>
                         <td>Red Panda</td>
                         <td>Cat</td>
+                        <td>Stingray</td>
                     </tr>
                     <tr>
                         <td>Orca Whale</td>
                         <td>Highland Cow</td>
+                        <td>Cat</td>
                     </tr>
                 </tbody>
             </table>
         </article>
 
+<!-- included <aside> -->
         <aside>
             <h2>Fun Fact</h2>
             <p>Every cat's nose print is unique, no two cats have the same nose pattern!</p>
-            <i class="fa-solid fa-otter"></i> <!-- FONTAWESOME2 -->
+            <!-- FONTAWESOME2 -->
+            <i class="fa-solid fa-otter"></i>
         </aside>
     </main>
 
+    <!-- included <footer> -->
     <footer>
-        <p> Asia's Animal Website</p>
+        <p> Asia's Animal Website 2025</p>
     </footer>
 
 </body>
