@@ -1,0 +1,123 @@
+/* General Styles */
+body {
+    font-family: 'Roboto', sans-serif; /* GOOGLEFONT1 */
+    margin: 0;
+    padding: 0;
+    background-color: #f4f4f4;
+}
+
+/* Header Styling */
+.top-half-container {
+    background-color: #947348ba;
+    padding: 10px 0;
+    height: 160px;
+    
+}
+
+/* Header Text Styling */
+.top-half-container h1 {
+    font-size: 40px;
+    color: white;
+    padding-left: 150px;
+    font-family: 'Playfair Display', serif; /* GOOGLEFONT1 */
+    font-weight: 700;
+}
+
+.all-top-buttons {
+    display: flex;
+    justify-content: right;
+    gap: 15px;
+    margin-top: 10px;
+    margin-right: 20px;
+}
+
+.all-top-buttons button {
+    background: #8c6747;
+    border: none;
+    color: white;
+    font-size: 16px;
+    cursor: pointer;
+    padding: 10px 15px;
+    border-radius: 5px;
+    transition: background 0.3s ease;
+}
+
+.all-top-buttons button:hover {
+    background: #ae9261;
+}
+
+.search-bar {
+    padding: 8px;
+    border-radius: 5px;
+    border: 1px solid #ccc;
+}
+
+/* Article Section */
+.article-collection {
+    display: flex;
+    justify-content: space-around;
+    margin: 20px;
+}
+
+.article-collection article {
+    background: white;
+    padding: 15px;
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    width: 30%;
+    text-align: center;
+    font-family: 'Playfair Display', serif; /* GOOGLEFONT2 */
+}
+
+.article-collection img {
+    width: 100%;
+    border-radius: 5px;
+}
+
+/* Table Section */
+.info-table {
+    width: 80%;
+    margin: 20px auto;
+    background: white;
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    text-align: center;
+}
+
+.info-table table {
+    width: 100%;
+    border-collapse: collapse;
+}
+
+.info-table th, .info-table td {
+    padding: 10px;
+    border: 1px solid #ddd;
+}
+
+.info-table th {
+    background-color: #947348ba;
+    color: white;
+}
+
+.info-table tr:nth-child(even) {
+    background-color: #f2f2f2;
+}
+
+.info-table tr:nth-child(odd) {
+    background-color: white;
+}
+
+/* Footer */
+.bottom-bar {
+    background-color: #947348ba;
+    color: white;
+    text-align: center;
+    padding: 10px;
+    margin-top: 20px;
+}
+
+.bottom-bar i {
+    margin: 0 5px;
+    color: lightgray;
+}
