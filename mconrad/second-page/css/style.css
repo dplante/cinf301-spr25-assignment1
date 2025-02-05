@@ -1,0 +1,103 @@
+/* GOOGLEFONT1: Press Start 2P */
+/* GOOGLEFONT2: Orbitron */
+
+/* General Styles */
+body {
+    font-family: 'Press Start 2P', sans-serif;
+    background-color: #111;
+    color: #0ff;
+    margin: 0;
+    padding: 0;
+    text-align: center;
+}
+
+/* Header Styling */
+.header {
+    background-color: #222;
+    color: #0ff;
+    text-align: center;
+    padding: 20px;
+}
+
+/* Navigation */
+.nav {
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+}
+
+.nav-item a {
+    text-decoration: none;
+    color: #ff0;
+    font-weight: bold;
+    font-family: 'Orbitron', sans-serif;
+}
+
+/* Main Content */
+.main {
+    padding: 20px;
+}
+
+.content {
+    margin: 20px auto;
+    padding: 20px;
+    max-width: 800px;
+    background-color: #333;
+    border-radius: 10px;
+    text-align: center;
+}
+
+/* Image Container */
+.image-container {
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    gap: 20px;
+}
+
+.image-container div img {
+    width: 45%;
+    max-width: 400px;
+    border-radius: 10px;
+}
+
+/* Table Styling */
+.table-container {
+    width: 100%;
+    margin-top: 20px;
+}
+
+/* Flexbox Table */
+.table-row {
+    display: flex;
+    background-color: #444;
+    color: #ff0;
+    font-family: 'Orbitron', sans-serif;
+    border: 2px solid #0ff;
+}
+
+.table-row.header {
+    background-color: #000;
+    font-weight: bold;
+}
+
+.table-cell {
+    flex: 1;
+    padding: 12px;
+    text-align: center;
+    border-right: 2px solid #0ff;
+}
+
+.table-cell:last-child {
+    border-right: none;
+}
+
+/* Footer */
+.footer {
+    font-family: 'Orbitron', sans-serif;
+    text-align: center;
+    padding: 15px;
+    background-color: #222;
+    color: #ff0;
+    margin-top: 20px;
+}
