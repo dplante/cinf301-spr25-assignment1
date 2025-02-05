@@ -1,5 +1,5 @@
 # Assignment 1
-This folder was added by Yash on 05/02/2025.
+This folder was added by Yash on 5th February, 2025.
 
 ## Directory Structure
 ```
