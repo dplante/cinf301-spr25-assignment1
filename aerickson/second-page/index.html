@@ -3,7 +3,7 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>My Second Page</title>
+    <title>My First Page</title>
     
     <!-- GOOGLEFONT1 -->
     <link rel="preconnect" href="https://fonts.googleapis.com">
@@ -22,8 +22,10 @@
     <link rel="stylesheet" href="css/style.css">
 </head>
 <body>
+    <!-- Replaced <header> with <div> -->
     <div class="header">
         <h1>Awesome Animals</h1>
+        <!-- Replaced <nav> with <div> -->
         <div class="nav">
             <ul>
                 <li><a href="#">Favorites</a></li>
@@ -32,60 +34,64 @@
         </div>
     </div>
 
+    <!-- Replaced <main> with <div> -->
     <div class="main">
-        <div class="content-box">
+        <!-- Replaced <section> with <div> -->
+        <div class="about-section">
             <h2>About This Site</h2>
             <p>This webpage is dedicated to some of my favorite animal pictures</p>
+            <!-- FONTAWESOME1 -->
             <i class="fa-solid fa-kiwi-bird"></i> 
         </div>
 
-        <div class="content-box">
+        <div class="animals-section">
             <h2>Animals of the Week</h2>
+            <!-- IMAGE1 -->
             <img id="theo-img" src="images/Theo.jpg" alt="Cat" width="20%">
+            <!-- IMAGE2 -->
             <img id="capybara-img" src="images/Capy.jpg" alt="Capybara" width="20%">
         </div>
-
-        <div class="content-box">
+ 
+        <!-- Replaced <article> with <div> and table with divs -->
+        <div class="user-favorite-animals">
             <h2>Our User's Favorite Animals</h2>
-            <div class="table-container">
-                <table>
-                    <thead>
-                        <tr>
-                            <th>Asia</th>
-                            <th>Gillian</th>
-                            <th>William</th>
-                        </tr>
-                    </thead>
-                    <tbody>
-                        <tr>
-                            <td>Cat</td>
-                            <td>Otter</td>
-                            <td>Turtle</td>
-                        </tr>
-                        <tr>
-                            <td>Red Panda</td>
-                            <td>Cat</td>
-                            <td>Stingray</td>
-                        </tr>
-                        <tr>
-                            <td>Orca Whale</td>
-                            <td>Highland Cow</td>
-                            <td>Cat</td>
-                        </tr>
-                    </tbody>
-                </table>
+            <div class="table">
+                <div class="table-row header-row">
+                    <div class="table-cell">Asia</div>
+                    <div class="table-cell">Gillian</div>
+                    <div class="table-cell">William</div>
+                </div>
+                <div class="table-row">
+                    <div class="table-cell">Cat</div>
+                    <div class="table-cell">Otter</div>
+                    <div class="table-cell">Turtle</div>
+                </div>
+                <div class="table-row">
+                    <div class="table-cell">Red Panda</div>
+                    <div class="table-cell">Cat</div>
+                    <div class="table-cell">Stingray</div>
+                </div>
+                <div class="table-row">
+                    <div class="table-cell">Orca Whale</div>
+                    <div class="table-cell">Highland Cow</div>
+                    <div class="table-cell">Cat</div>
+                </div>
             </div>
         </div>
 
-        <div class="fun-fact-box">
+        <!-- Replaced <aside> with <div> -->
+        <div class="fun-fact">
             <h2>Fun Fact</h2>
             <p>Every cat's nose print is unique, no two cats have the same nose pattern!</p>
+            <!-- FONTAWESOME2 -->
             <i class="fa-solid fa-otter"></i>
         </div>
     </div>
 
+    <!-- Replaced <footer> with <div> -->
     <div class="footer">
-        <p>Asia's Animal Website 2025</p>
+        <p> Asia's Animal Website 2025</p>
     </div>
+
 </body>
 </html>
