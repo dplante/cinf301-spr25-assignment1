@@ -1,0 +1,84 @@
+body {
+    margin: 0;
+    padding: 0;
+    font-family: 'Quicksand', sans-serif;
+    background-color: #f4f4f4;
+}
+
+.header {
+    background-color: #333;
+    color: white;
+    text-align: center;
+    padding: 15px;
+}
+
+.nav ul {
+    list-style: none;
+    padding: 0;
+}
+
+.nav ul a {
+    color: white;
+    text-decoration: none;
+}
+
+.main {
+    padding: 20px;
+}
+
+.content-box {
+    padding: 20px;
+    margin: 15px 0;
+    background-color: white;
+    border-radius: 5px;
+    box-shadow: 2px 2px 10px rgba(0,0,0,0.1);
+}
+
+.fun-fact-box {
+    background-color: #e3f2fd;
+    padding: 15px;
+    border-left: 5px solid #0288d1;
+}
+
+#capybara-img, #theo-img {
+    border-radius: 10px;
+    border: 3px solid #555;
+}
+
+.fas {
+    font-size: 24px;
+    margin-right: 10px;
+    color: #333;
+}
+
+.table-container table {
+    width: 100%;
+    border-collapse: collapse;
+    margin-top: 10px;
+}
+
+th, td {
+    padding: 12px;
+    border: 1px solid #ddd;
+    text-align: left;
+}
+
+thead {
+    background-color: #555;
+    color: white;
+}
+
+tbody tr:nth-child(even) {
+    background-color: #f9f9f9;
+}
+
+tbody tr:nth-child(odd) {
+    background-color: #e0e0e0;
+}
+
+.footer {
+    text-align: center;
+    padding: 15px;
+    background-color: #222;
+    color: white;
+}
