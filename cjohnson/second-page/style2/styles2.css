@@ -1,0 +1,94 @@
+/* GOOGLEFONT1: Lobster */
+/* GOOGLEFONT2: Raleway */
+body {
+    font-family: 'Raleway', sans-serif;
+    background-color: #f4f4f4;
+    color: #333;
+    text-align: center;
+}
+
+.header {
+    background-color: #178434;
+    color: white;
+    padding: 20px;
+    font-family: 'Lobster', cursive;
+}
+
+.nav ul {
+    list-style: none;
+    padding: 0;
+}
+
+.nav ul li {
+    display: inline;
+    margin-right: 15px;
+}
+
+.nav ul li a {
+    display: inline-block;
+    background-color: #178434;
+    color: white;
+    padding: 10px 20px;
+    border-radius: 5px;
+    text-decoration: none;
+    font-weight: bold;
+    transition: background-color 0.3s;
+}
+
+.nav ul li a:hover {
+    background-color: #7ccc97;
+}
+
+.content {
+    margin: 20px;
+    padding: 15px;
+    background-color: white;
+    border-radius: 5px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+.content-img {
+    width: 300px;
+    height: 300px;
+    object-fit: cover;
+    border-radius: 25px;
+    margin: 10px;
+}
+
+.table-wrapper {
+    display: table;
+    width: 100%;
+    border-collapse: collapse;
+}
+
+.table-row {
+    display: table-row;
+}
+
+.table-cell {
+    display: table-cell;
+    border: 1px solid #000;
+    padding: 8px;
+    text-align: left;
+}
+
+.header .table-cell {
+    background-color: darkgray;
+    font-weight: bold;
+}
+
+.odd-row {
+    background-color: lightgray;
+}
+
+.even-row {
+    background-color: white;
+}
+
+.footer {
+    background-color: #178434;
+    color: white;
+    padding: 10px;
+    margin-top: 20px;
+}
+
