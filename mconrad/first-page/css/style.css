@@ -1,0 +1,106 @@
+/* GOOGLEFONT1: Press Start 2P */
+/* GOOGLEFONT2: Orbitron */
+
+/* General Styles */
+body {
+    font-family: 'Press Start 2P', sans-serif;
+    background-color: #111;
+    color: #0ff;
+    margin: 0;
+    padding: 0;
+}
+
+/* Header Styling */
+header {
+    background-color: #222;
+    color: #0ff;
+    text-align: center;
+    padding: 20px;
+}
+
+/* Navigation */
+nav ul {
+    list-style: none;
+    padding: 0;
+    text-align: center;
+}
+
+nav ul li {
+    display: inline;
+    margin: 0 15px;
+}
+
+nav a {
+    text-decoration: none;
+    color: #ff0;
+    font-weight: bold;
+}
+
+/* Main Content */
+main {
+    padding: 20px;
+}
+
+section, article, aside {
+    margin: 20px 0;
+    padding: 15px;
+    background-color: #333;
+    border-radius: 5px;
+    box-shadow: 2px 2px 5px rgba(0, 255, 255, 0.2);
+}
+
+img {
+    width: 100%;
+    max-width: 600px;
+    display: block;
+    margin: 10px auto;
+}
+
+/* Image Container */
+.image-container {
+    display: flex;
+    justify-content: center;  
+    gap: 20px;  
+}
+
+.image-container img {
+    width: 45%;  
+    max-width: 400px; 
+    border-radius: 10px;
+}
+
+/* Table Styling */
+table {
+    width: 100%;
+    border-collapse: collapse;
+    margin-top: 10px;
+    background-color: #444;
+    color: #ff0;
+}
+
+table, th, td {
+    border: 2px solid #0ff;
+}
+
+th, td {
+    padding: 10px;
+    text-align: center;
+}
+
+thead {
+    background-color: #000;
+    color: #ff0;
+}
+
+tbody tr:nth-child(even) {
+    background-color: #555;
+}
+
+/* Footer */
+footer {
+    text-align: center;
+    padding: 10px;
+    background-color: #222;
+    color: #ff0;
+    margin-top: 20px;
+}
