@@ -20,17 +20,13 @@ header {
     padding: 15px;
 }
 
+/* unordered list */
 nav ul {
     list-style: none;
     padding: 0;
 }
 
-nav ul li {
-    display: inline;
-    margin-right: 20px;
-}
-
-nav ul li a {
+nav ul a {
     color: white;
     text-decoration: none;
 }
