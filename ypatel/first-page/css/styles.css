@@ -1,0 +1,134 @@
+/* Base styles */
+:root {
+    --f1-red: #e10600;
+    --f1-dark: #15151e;
+    --f1-grey: #38383f;
+    --f1-white: #ffffff;
+    --heading-font: 'Racing Sans One', sans-serif; /* GOOGLEFONT1 */
+    --para-font: 'Oswald', sans-serif; /* GOOGLEFONT2 */
+
+}
+
+body {
+    margin: 0;
+    padding: 0;
+    font-family: var(--heading-font);
+    background-color: var(--f1-dark);
+    color: var(--f1-white);
+}
+
+/* Header and Navigation */
+header {
+    background-color: var(--f1-red);
+    padding: 1rem;
+}
+
+nav {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    gap: 2rem;
+}
+
+#nav-links{
+    display: flex;
+    justify-items: space-between;
+}
+
+nav img {
+    height: 40px;
+}
+
+nav a {
+    color: var(--f1-white);
+    margin: 15px;
+    text-decoration: none;
+    font-weight: bold;
+}
+
+nav a:hover {
+    color: var(--f1-dark);
+}
+
+/* Main Content */
+main {
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 2rem;
+}
+
+tr{
+    font-family: var(--para-font);
+}
+
+main section {
+    margin-bottom: 3rem;
+}
+#about{
+    justify-items: center;
+
+}
+
+h1, h2 {
+    color: var(--f1-red);
+}
+
+p{
+    font-family: var(--para-font);
+}
+
+/* Table Styling */
+tr:nth-child(even) {
+    background-color: var(--f1-grey);
+}
+
+tr:hover{
+    color: #e10600;
+}
+
+table {
+    width: 100%;
+    border-collapse: collapse;
+    margin: 1rem 0;
+}
+
+th, td {
+    padding: 1rem;
+    text-align: left;
+    border-bottom: 1px solid var(--f1-grey);
+}
+
+th {
+    font-family: var(--heading-font);
+    background-color: var(--f1-red);
+    color: var(--f1-white);
+}   
+
+/* Photo Gallery */
+#gallery img{
+    height: auto;
+    width: 25vw;
+}
+#gallery{
+    display: flex;
+    
+}
+
+/* Partner Logos */
+main section img {
+    height: 60px;
+    margin: 1rem;
+}
+
+/* Footer */
+footer {
+    text-align: center;
+    padding: 2rem;
+    background-color: var(--f1-grey);
+    color: var(--f1-white);
+}
+
+#group-image{
+    height: auto;
+    width:50vw;
+}
