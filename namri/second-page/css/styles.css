@@ -1,0 +1,146 @@
+/* GOOGLEFONT1 */
+body {
+    font-family: 'Poppins', sans-serif;
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-weight: 700;
+}
+
+/* GOOGLEFONT2 */
+h1, h2 {
+    font-family: 'Lora', serif;
+    font-weight: 700;
+}
+
+.header {
+    background: #333;
+    color: #fff;
+    padding: 1rem 0;
+    text-align: center;
+}
+
+.nav ul {
+    list-style: none;
+    padding: 0;
+    display: flex;
+    justify-content: center;
+}
+
+.nav ul li {
+    margin: 0 1rem;
+}
+
+.nav ul li a {
+    color: #fff;
+    text-decoration: none;
+    font-weight: 600;
+}
+
+.hero {
+    background: grey;
+    color: brown;
+    text-align: center;
+    padding: 5rem 1rem;
+}
+
+.car-listings {
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+    padding: 2rem 1rem;
+}
+
+.car-item {
+    background: #f9f9f9;
+    border: 1px solid #ddd;
+    border-radius: 5px;
+    padding: 1rem;
+    margin: 1rem;
+    text-align: center;
+    width: 300px;
+}
+
+.car-item img {
+    max-width: 100%;
+    border-radius: 5px;
+}
+
+.car-item h3 {
+    font-size: 1.5rem;
+    margin: 1rem 0;
+}
+
+.car-item .price {
+    font-weight: 600;
+    color: #ff6b6b;
+}
+
+.car-item .btn {
+    background: #333;
+    color: #fff;
+    padding: 0.5rem 1rem;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+.pricing .table {
+    width: 100%;
+    border-collapse: collapse;
+    margin: 2rem 0;
+}
+
+.pricing .table-header .table-row,
+.pricing .table-body .table-row {
+    display: flex;
+}
+
+.pricing .table-cell {
+    flex: 1;
+    padding: 1rem;
+    text-align: left;
+    border: 1px solid #ddd;
+}
+
+.pricing .table-header .table-cell {
+    background: #333;
+    color: #fff;
+    font-weight: bold;
+}
+
+.pricing .table-body .table-row:nth-child(even) {
+    background: #f2f2f2;
+}
+
+.testimonials {
+    background: #f1f1f1;
+    padding: 2rem 1rem;
+    text-align: center;
+}
+
+.testimonial-item {
+    margin: 1rem 0;
+}
+
+.contact-form {
+    padding: 2rem 1rem;
+    text-align: center;
+}
+
+.contact-form input,
+.contact-form textarea {
+    width: 100%;
+    max-width: 500px;
+    padding: 0.75rem;
+    margin: 0.5rem 0;
+    border: 1px solid #ddd;
+    border-radius: 5px;
+}
+
+footer {
+    background: #333;
+    color: #fff;
+    text-align: center;
+    padding: 1rem 0;
+}
