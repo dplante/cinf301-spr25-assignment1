@@ -1,0 +1,192 @@
+
+.header, .table, .article {
+    width: 100%;
+    text-align: center;
+}
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #f4f4f4;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background-color: #000;
+    opacity: 1;
+}
+
+.header {
+    background-color: #000;
+    color: #fff;
+    padding: 10px;
+    text-align: left;
+    justify-content: left;
+    width:fit-content;
+    margin:0;
+}
+.even-row{
+    background-color:#ff9933;
+    width: 1000px;
+    display:grid;
+    grid-template-columns: 1fr 2fr;
+    border:1px solid white;
+}
+.odd-row{
+    background-color: #68b326;
+    width: 1000px;
+    display:grid;
+    grid-template-columns: 1fr 2fr;
+    border:1px solid white;
+}
+
+#werewolf-music{
+    font-weight:600;
+    font-size:8.6em;
+    writing-mode: vertical-rl;
+    -webkit-writing-mode: vertical-rl;
+    -ms-writing-mode: vertical-rl;
+    margin:0;
+    padding:0;
+}
+#mgultra {
+    max-height: 700px;
+    width: auto;
+}
+.imgcontainer {
+    position: absolute;
+    right: 0;
+    top: 0;
+    height: 100%;
+    display: flex;
+    align-items: center;
+}
+.header-row{
+    display:grid;
+    grid-template-columns: 1fr 1fr;
+    background-color: #000;
+}
+.table{
+    background-color: #f4f4f4;
+    width:100%;
+    text-align: center;
+    border-color: #880808;
+    font-size:22px;
+    bottom:0;
+    border:1px solid white;
+}
+.table-header-album{
+    font-size: 1.5em;
+    background-color: #000;
+    color: #fff;
+    padding: 10px;
+    text-align: center;
+    justify-content: center;
+    margin:0;
+    display:grid;
+    border:1px solid white;
+    width:500px;
+}
+.table-header-year{
+    font-size: 1.5em;
+    background-color: #000;
+    color: #fff;
+    padding: 10px;
+    text-align: center;
+    justify-content: center;
+    margin:0;
+    display:grid;
+    border:1px solid white;
+    width:460px;
+}
+.main {
+    display: flex;
+    flex-direction: column;
+    align-items: center; /* Center content */
+    max-width: 60%;
+}
+.album-year{
+    font-style: italic;
+    border:1px solid white;
+}
+.album-name{
+    font-weight: bold;
+    width:520px;
+    border:1px solid white;
+}
+.footer {
+    display: flex;
+    justify-content: flex-start;
+    width: 60%;
+    padding: 10px;
+}
+.footer a{
+    color: #fff;
+    margin: 10px;
+    bottom:0;
+}
+.footer-text{
+    background-color: #000;
+    color: #fff;
+    padding: 10px;
+    text-align: center;
+    justify-content: center;
+    width:fit-content;
+    margin:0;
+    bottom:0;
+}
+.article{
+    gap: 0px;
+    align-items: start;
+    grid-column: 1/2;
+}
+.section{
+    display: block;
+    align-items: end;
+}
+#machinegirl {
+    max-width: 70%;
+    height: auto;
+    display: block;
+    margin: 20px auto; /* Center it */
+}
+/*GOOGLEFONT1*/
+.bebas-neue-regular {
+    font-family: "Bebas Neue", serif;
+    font-weight: 400;
+    font-style: normal;
+    background-color: #000;
+    color: #fff;
+    padding: 10px;
+    width:fit-content;
+    margin:0;
+    font-size:4em;
+  }
+
+/*GOOGLEFONT2*/
+.caveat{
+    font-family: "Caveat", serif;
+    font-optical-sizing: auto;
+    font-weight: 500;
+    font-style: normal;
+    font-size:1.5em;
+    background-color: #000;
+    color: #fff;
+    padding: 10px;
+    text-align: center;
+    justify-content: center;
+    width:fit-content;
+    margin:0;
+  }
+.nav{
+    display: flex;
+    padding: auto;
+  }
+nav a{
+        padding: 10px;
+        margin: 10px;
+        color: #fff;
+        size-adjust: auto;
+    }
+i{
+        font-size: 2.6em;
+}
