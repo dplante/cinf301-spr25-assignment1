@@ -1,0 +1,120 @@
+/* NAVIGATION MENU */
+.navigation-menu {
+    background-color: #333;
+    padding: 10px;
+    text-align: center;
+}
+
+.menu-item {
+    display: inline-block;
+    margin-right: 20px;
+}
+
+.menu-item a {
+    color: white;
+    text-decoration: none;
+    /*GOOGLEFONT1*/
+    font-family: "Oswald", sans-serif;
+    font-size: 18px;
+    padding: 10px;
+}
+
+.menu-item a:hover {
+    color: #ff5722; /* Hover color */
+    text-decoration: underline;
+}
+
+/* HEADER */
+.header {
+    text-align: center;
+    background-color: #222;
+    color: white;
+    padding: 20px;
+    /*GOOGLEFONT1*/
+    font-family: "Oswald", sans-serif;
+}
+
+/* MAIN TABLE */
+.table-container {
+    width: 100%;
+    border-collapse: collapse;
+    margin-top: 20px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+/* TABLE ROWS */
+.table-row {
+    display: flex;
+    padding: 10px;
+}
+
+.header-row {
+    font-weight: bold;
+}
+
+/* TABLE CELLS */
+.table-cell {
+    flex: 1;
+    padding: 12px;
+    text-align: left;
+    border: 1px solid #ddd;
+}
+
+.table-cell img {
+    width: 100px;
+    height: auto;
+}
+
+.table-cell i {
+    font-size: 24px;
+    color: #ff5722; /* Icon color */
+}
+
+/* FOOTER */
+.footer {
+    text-align: center;
+    padding: 10px;
+    background-color: #222;
+    color: white;
+    margin-top: 20px;
+}
+
+/* Fun Facts */
+.list-container {
+    padding: 20px;
+}
+
+.list-item {
+    padding: 10px;
+    border-bottom: 1px solid #ddd;
+}
+
+.list-item i {
+    margin-right: 10px;
+    color: #ff5722;
+    font-size: 20px;
+}
+
+.list-item {
+    display: flex;
+    align-items: center;
+}
+/* ALTERNATE ROW COLORS */
+.table-container .table-row:nth-child(even) {
+    background-color: #f0f0f0;
+}
+
+.table-container .table-row:nth-child(odd) {
+    background-color: #ffffff;
+}
+/* Hover effect for list items */
+.list-item:hover {
+    background-color: #f1f1f1;
+    transition: background-color 0.3s ease-in-out;
+}
+
+/* GOOGLEFONT2 */
+body, h1, h2, .footer p {
+    font-family: "Crimson Text", serif;
+}
+
