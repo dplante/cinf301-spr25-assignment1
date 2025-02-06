@@ -133,3 +133,8 @@ table {
     border-collapse: collapse;
     margin-top:auto
 }
+
+.aside {
+    padding: 15px;
+    margin: 20px;
+  }
