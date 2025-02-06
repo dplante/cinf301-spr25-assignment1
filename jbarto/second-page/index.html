@@ -1,52 +1,118 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-	<meta charset="UTF-8">
-	<meta name="author" content="Joey Barto">
-	<meta name="description" content="Video Game Page">
-  	<link rel="icon" href="" type="image/x-icon">
-  	<link rel="stylesheet" href="css/styles.css">
-  	<link href="" rel="stylesheet">
-  	<title>Video Game Page</title>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Video Games Central</title>
+    <link rel="stylesheet" href="css/styles.css">
+    <!-- GOOGLEFONT1 - Oswald -->
+    <link href="https://fonts.googleapis.com/css2?family=Oswald:wght@400;600&display=swap" rel="stylesheet">
+    <!-- GOOGLEFONT2 - Crimson Text -->
+    <link href="https://fonts.googleapis.com/css2?family=Crimson+Text&display=swap" rel="stylesheet">
+    <!-- FontAwesome CDN -->
+    <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css" rel="stylesheet">
 </head>
-
 <body>
-	 <header id="head-form"><a target="_self" href="https://stackpath.com"><img src="images/sp-logo-light.svg"
-        alt="StackPath"></a></header>
-	 <link rel="preconnect" href="https://fonts.googleapis.com">
-<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-<link href="https://fonts.googleapis.com/css2?family=Oswald:wght@200..700&family=Playwrite+DE+Grund:wght@100..400&display=swap" rel="stylesheet">
-<link rel="preconnect" href="https://fonts.googleapis.com">
-<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-<link href="https://fonts.googleapis.com/css2?family=Crimson+Text:ital,wght@0,400;0,600;0,700;1,400;1,600;1,700&family=Oswald:wght@200..700&family=Playwrite+DE+Grund:wght@100..400&display=swap" rel="stylesheet">
-	<p class="basic"> This is a Video Game Page </p>
-<table>
-	<tr>
-		<td style='background-color: red'>
-		</td>
-		<td>
-			<i class="fa-solid fa-gamepad"></i>
-        </td>
-        <td>
-		<i class="fa-solid fa-headset"></i>
-        </td>
-    </tr>
-    <tr>
-        <td>
-        </td>
-        <td>
-        </td>
-        <td>
-        </td>
-    </tr>
-    <tr>
-        <td>
-        </td>
-        <td>
-        </td>
-        <td>
-        </td>
-    </tr>
-</table>
+
+    <!-- HEADER DIV -->
+    <div class="header">
+        <h1>Video Games Central</h1>
+    </div>
+
+    <!-- NAVIGATION MENU DIV -->
+    <div class="navigation-menu">
+        <div class="menu-item"><a href="#recent-games">Recent Hit Video Games</a></div>
+        <div class="menu-item"><a href="#upcoming-games">Upcoming Video Games</a></div>
+        <div class="menu-item"><a href="#fun-facts">Fun Facts</a></div>
+    </div>
+
+    <!-- MAIN CONTENT DIV -->
+    <div class="main-content">
+
+        <!-- Recent Video Games DIV -->
+        <div class="section" id="recent-games">
+            <h2>Recent Hit Video Games</h2>
+            <div class="table-container">
+                <div class="table-row header-row">
+                    <div class="table-cell">Game</div>
+                    <div class="table-cell">Description</div>
+                    <div class="table-cell">Image</div>
+                    <div class="table-cell">Icon</div>
+                    <div class="table-cell">Rating</div>
+                    <div class="table-cell">Genre</div>
+                </div>
+                <div class="table-row">
+                    <div class="table-cell">The Legend of Zelda: Tears of the Kingdom</div>
+                    <div class="table-cell">An action-adventure game where you explore the world on air, ground, and underground to save the kingdom.</div>
+                    <div class="table-cell"><img src="images/zelda.jpg" alt="The Legend of Zelda: Tears of the Kingdom"></div>
+                    <div class="table-cell"><i class="fa-solid fa-shield"></i></div>
+                    <div class="table-cell">*****</div>
+                    <div class="table-cell">Action/Adventure</div>
+                </div>
+                <div class="table-row">
+                    <div class="table-cell">Halo Infinite</div>
+                    <div class="table-cell">A sci-fi first-person shooter featuring an open-world campaign and epic multi-player battles.</div>
+                    <div class="table-cell"><img src="images/halo.jpg" alt="Halo Infinite"></div>
+                    <div class="table-cell"><i class="fa-solid fa-gun"></i></div>
+                    <div class="table-cell">***</div>
+                    <div class="table-cell">FPS</div>
+                </div>
+                <div class="table-row">
+                    <div class="table-cell">Astro Bot</div>
+                    <div class="table-cell">Winner of Game of the Year in 2024, this 3D platformer involves traveling across the universe to rescue fellow robots, many inspired by PlayStation history.</div>
+                    <div class="table-cell"><img src="images/astro.jpg" alt="Astro Bot"></div>
+                    <div class="table-cell"><i class="fa-solid fa-robot"></i></div>
+                    <div class="table-cell">****</div>
+                    <div class="table-cell">Platformer</div>
+                </div>
+            </div>
+        </div>
+
+        <!-- Upcoming Video Games DIV -->
+        <div class="section" id="upcoming-games">
+            <h2>Upcoming Video Games</h2>
+            <div class="table-container">
+                <div class="table-row header-row">
+                    <div class="table-cell">Game</div>
+                    <div class="table-cell">Release Date</div>
+                    <div class="table-cell">Description</div>
+                </div>
+                <div class="table-row">
+                    <div class="table-cell">Monster Hunter Wilds</div>
+                    <div class="table-cell">2/28/2025</div>
+                    <div class="table-cell">The first next-generation Monster Hunter game with new worlds, mounts, and combat options</div>
+                </div>
+                <div class="table-row">
+                    <div class="table-cell">Grand Theft Auto VI</div>
+                    <div class="table-cell">2025</div>
+                    <div class="table-cell">The highly anticipated next game in the popular franchise is set to finally release this year involving a new crime couple as protagonists in a Florida-inspired open world.</div>
+                </div>
+                <div class="table-row">
+                    <div class="table-cell">Metroid Prime 4: Beyond</div>
+                    <div class="table-cell">2025</div>
+                    <div class="table-cell">The long-awaited continuation of Samus Aran's space-faring adventure involving new planets while still returning to the classic first-person shooter gameplay</div>
+                </div>
+            </div>
+        </div>
+
+        <!-- Fun Facts DIV -->
+        <div class="section" id="fun-facts">
+            <h2>Fun Facts</h2>
+            <div class="list-container">
+                <div class="list-item"><i class="fa-solid fa-gamepad"></i> One of the first successful video games was Pong, released in 1972 by Atari.</div>
+                <div class="list-item"><i class="fa-solid fa-diamond"></i> The highest-selling video game of all time is Minecraft, with over 300 million copies sold.</div>
+                <div class="list-item"><i class="fa-solid fa-coins"></i> Mario was originally called Jumpman in Donkey Kong and was originally a carpenter before becoming the iconic plumber.</div>
+                <div class="list-item"><i class="fa-solid fa-gamepad"></i> The PlayStation 2 is the best-selling console of all time, with over 155 million units sold.</div>
+                <div class="list-item"><i class="fa-solid fa-brain"></i> Studies suggest that playing video games can improve hand-eye coordination and problem-solving skills.</div>
+            </div>
+        </div>
+    </div>
+
+    <!-- FOOTER DIV -->
+    <div class="footer">
+        <p>&copy; 2025 Video Games Central. All rights reserved.</p>
+    </div>
+
 </body>
 </html>
+

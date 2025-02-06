@@ -1,52 +1,135 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-	<meta charset="UTF-8">
-	<meta name="author" content="Joey Barto">
-	<meta name="description" content="Video Game Page">
-  	<link rel="icon" href="" type="image/x-icon">
-  	<link rel="stylesheet" href="css/styles.css">
-  	<link href="" rel="stylesheet">
-  	<title>Video Game Page</title>
-</head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Video Games Central</title>
+    <link rel="stylesheet" href="css/styles.css">
+    <!-- GOOGLEFONT1 - Oswald -->
+    <link href="https://fonts.googleapis.com/css2?family=Oswald:wght@400;600&display=swap" rel="stylesheet">
+    <!-- GOOGLEFONT2 - Crimson Text -->
+    <link href="https://fonts.googleapis.com/css2?family=Crimson+Text&display=swap" rel="stylesheet">
 
+    <!-- FontAwesome CDN -->
+    <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css" rel="stylesheet">
+</head>
 <body>
-	 <header id="head-form"><a target="_self" href="https://stackpath.com"><img src="images/sp-logo-light.svg"
-        alt="StackPath"></a></header>
-	 <link rel="preconnect" href="https://fonts.googleapis.com">
-<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-<link href="https://fonts.googleapis.com/css2?family=Oswald:wght@200..700&family=Playwrite+DE+Grund:wght@100..400&display=swap" rel="stylesheet">
-<link rel="preconnect" href="https://fonts.googleapis.com">
-<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-<link href="https://fonts.googleapis.com/css2?family=Crimson+Text:ital,wght@0,400;0,600;0,700;1,400;1,600;1,700&family=Oswald:wght@200..700&family=Playwrite+DE+Grund:wght@100..400&display=swap" rel="stylesheet">
-	<p class="basic"> This is a Video Game Page </p>
-<table>
-	<tr>
-		<td style='background-color: red'>
-		</td>
-		<td>
-			<i class="fa-solid fa-gamepad"></i>
-        </td>
-        <td>
-		<i class="fa-solid fa-headset"></i>
-        </td>
-    </tr>
-    <tr>
-        <td>
-        </td>
-        <td>
-        </td>
-        <td>
-        </td>
-    </tr>
-    <tr>
-        <td>
-        </td>
-        <td>
-        </td>
-        <td>
-        </td>
-    </tr>
-</table>
+
+    <!-- HEADER -->
+    <header>
+        <h1>Video Games Central</h1>
+    </header>
+
+    <!-- NAVIGATION MENU -->
+    <nav>
+        <ul>
+            <li><a href="#recent-games">Recent Hit Video Games</a></li>
+            <li><a href="#upcoming-games">Upcoming Video Games</a></li>
+            <li><a href="#fun-facts">Fun Facts</a></li>
+        </ul>
+    </nav>
+
+    <!-- MAIN CONTENT -->
+    <main>
+        <section id="recent-games">
+            <h2>Recent Hit Video Games</h2>
+            <table>
+                <thead>
+                    <tr>
+                        <th>Game</th>
+                        <th>Description</th>
+                        <th>Image</th>
+                        <th>Icon</th>
+                        <th>Rating</th>
+                        <th>Genre</th>
+                    </tr>
+                </thead>
+                <tbody>
+                    <tr>
+                        <td>The Legend of Zelda: Tears of the Kingdom</td>
+                        <td>An action-adventure game where you explore the world on air, ground, and underground to save the kingdom.</td>
+                        <td><img src="images/zelda.jpg" alt="The Legend of Zelda: Tears of the Kingdom"></td>
+                        <!-- FONTAWESOME1 -->
+                        <td><i class="fa-solid fa-shield"></i></td>
+                        <td>*****</td>
+                        <td>Action/Adventure</td>
+                    </tr>
+                    <tr>
+                        <td>Halo Infinite</td>
+                        <td>A sci-fi first-person shooter featuring an open-world campaign and epic multi-player battles.</td>
+                        <td><img src="images/halo.jpg" alt="Halo Infinite"></td>
+                        <!-- FONTAWESOME2 -->
+                        <td><i class="fa-solid fa-gun"></i></td>
+                        <td>***</td>
+                        <td>FPS</td>
+                    </tr>
+                    <tr>
+                        <td>Astro Bot</td>
+                        <td>Winner of Game of the Year in 2024, this 3D platformer involves traveling across the universe to rescue fellow robots, many inspired by PlayStation history.</td>
+                        <td><img src="images/astro.jpg" alt="Astro Bot"></td>
+                        <!-- FONTAWESOME3 -->
+                        <td><i class="fa-solid fa-robot"></i></td>
+                        <td>****</td>
+                        <td>Platformer</td>
+                    </tr>
+                </tbody>
+            </table>
+        </section>
+
+        <!-- Upcoming Video Games -->
+        <section id="upcoming-games">
+            <h2>Upcoming Video Games</h2>
+            <table>
+                <thead>
+                    <tr>
+                        <th>Game</th>
+                        <th>Release Date</th>
+                        <th>Description</th>
+                    </tr>
+                </thead>
+                <tbody>
+                    <tr>
+                        <td>Monster Hunter Wilds</td>
+                        <td>2/28/2025</td>
+                        <td>The first next-generation Monster Hunter game with new worlds, mounts, and combat options</td>
+                    </tr>
+                    <tr>
+                        <td>Grand Theft Auto VI</td>
+                        <td>2025</td>
+                        <td>The highly anticipated next game in the popular franchise is set to finally release this year involving a new crime couple as protagonists in a Florida-inspired open world.</td>
+                    </tr>
+                    <tr>
+                        <td>Metroid Prime 4: Beyond</td>
+                        <td>2025</td>
+                        <td>The long-awaited continuation of Samus Aran's space-faring adventure involving new planets while still returning to the classic first-person shooter gameplay</td>
+                    </tr>
+                </tbody>
+            </table>
+        </section>
+
+        <!-- Fun Facts -->
+        <section id="fun-facts">
+            <h2>Fun Facts</h2>
+            <ul>
+                    <!-- FONTAWESOME4 -->
+                <li><i class="fa-solid fa-gamepad"></i> One of the first ever successful video games was Pong, released in 1972 by Atari.</li>
+                <!-- FONTAWESOME5 -->
+                <li><i class="fa-solid fa-diamond"></i> The highest-selling video game of all time is Minecraft, with over 300 million copies sold.</li>
+                <!-- FONTAWESOME6 -->
+                <li><i class="fa-solid fa-coins"></i> Mario was originally called Jumpman in Donkey Kong and was originally a carpenter in that game before being the iconic plumber known today.</li>
+                <!-- FONTAWESOME7 -->
+                <li><i class="fa-solid fa-gamepad"></i> The PlayStation 2 is the best-selling console of all time, with over 155 million units sold.</li>
+                <!-- FONTAWESOME8 -->
+                <li><i class="fa-solid fa-brain"></i> Studies suggest that playing video games can improve hand-eye coordination and problem-solving skills.</li>
+            </ul>
+        </section>
+    </main>
+
+    <!-- FOOTER -->
+    <footer>
+        <p>&copy; 2025 Video Games Central. All rights reserved.</p>
+    </footer>
+
 </body>
 </html>
+

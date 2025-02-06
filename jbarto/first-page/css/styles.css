@@ -1,71 +1,114 @@
-table{
-	width: 50%
-	border-collapse: collapse;
+/* NAVIGATION MENU */
+nav {
+    background-color: #333;
+    padding: 10px;
+    text-align: center;
 }
-td{
-    width: 33%;
-    padding-bottom: 33%;
-    box-shadow: inset 0 0 2px 2px #fff;
-    background-color: #bada55;
+
+nav ul {
+    list-style-type: none;
+    padding: 0;
+    margin: 0;
 }
-p::after {
-	color:green;
-	content:"After stuff":
+
+nav ul li {
+    display: inline;
+    margin-right: 20px;
 }
-p::before {
-  color: blue;
-  content: "Before stuff ";
+
+nav ul li a {
+    color: white;
+    text-decoration: none;
+    font-family: "Oswald", sans-serif;
+    font-size: 18px;
+    padding: 10px;
 }
+
+nav ul li a:hover {
+    color: #ff5722; /* Hover color */
+    text-decoration: underline;
+}
+
+
 body {
-    font-family: 'Montserrat', sans-serif;
-}
-main {
-    display: flex;
-}
-img {
-  width: 10%;
-  height: 20%;
- }
-
-.oswald-<uniquifier> {
-  font-family: "Oswald", serif;
-  font-optical-sizing: auto;
-  font-weight: <weight>;
-  font-style: normal;
-}
-.crimson-text-regular {
-  font-family: "Crimson Text", serif;
-  font-weight: 400;
-  font-style: normal;
+/* GOOGLEFONT2 */
+    font-family: "Crimson Text", serif;
+    margin: 0;
+    padding: 0;
+    background-color: #f8f8f8;
 }
 
-.crimson-text-semibold {
-  font-family: "Crimson Text", serif;
-  font-weight: 600;
-  font-style: normal;
+/* HEADER */
+header {
+    text-align: center;
+    background-color: #222;
+    color: white;
+    padding: 20px;
+    /* GOOGLEFONT1 */
+    font-family: "Oswald", sans-serif;
 }
 
-.crimson-text-bold {
-  font-family: "Crimson Text", serif;
-  font-weight: 700;
-  font-style: normal;
+/* MAIN TABLE */
+table {
+    width: 100%;
+    border-collapse: collapse;
+    margin-top: 20px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
 }
 
-.crimson-text-regular-italic {
-  font-family: "Crimson Text", serif;
-  font-weight: 400;
-  font-style: italic;
+/* TABLE HEADERS */
+table th {
+    background-color: #222;
+    color: white;
+    padding: 12px;
+    text-align: left;
 }
 
-.crimson-text-semibold-italic {
-  font-family: "Crimson Text", serif;
-  font-weight: 600;
-  font-style: italic;
+/* MAIN TABLE CELLS */
+table td {
+    padding: 15px;
+    background: white;
+    border: 2px solid #ddd;
 }
 
-.crimson-text-bold-italic {
-  font-family: "Crimson Text", serif;
-  font-weight: 700;
-  font-style: italic;
+/* IMAGES */
+table td img {
+    width: 100px;
+    height: auto;
+}
+
+/* ICONS */
+table td i {
+    font-size: 24px;
+    color: #ff5722; /* Icon color */
+}
+
+/* FOOTER */
+footer {
+    text-align: center;
+    padding: 10px;
+    background-color: #222;
+    color: white;
+    margin-top: 20px;
+}
+
+/* Alternating row colors */
+table tbody tr:nth-child(even) {
+    background-color: #f0f0f0; /* Light gray for even rows */
+}
+
+table tbody tr:nth-child(odd) {
+    background-color: #ffffff; /* White for odd rows */
+}
+
+/* Hover effect for rows */
+table tbody tr:hover {
+    background-color: #d1e7fd; /* Light blue on hover */
+    transition: background-color 0.3s ease-in-out;
+}
+
+section {
+    padding: 20px;
+    margin: 20px 0;
 }
 
