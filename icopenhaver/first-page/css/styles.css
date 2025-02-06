@@ -1,14 +1,16 @@
-html {
-    overflow-y: hidden;
-}
 
+header, table, article {
+    width: 100%;
+    text-align: center;
+}
 body {
     font-family: Arial, sans-serif;
     margin: 0;
     padding: 0;
     background-color: #f4f4f4;
-    display:flex;
-    align-items: flex-start;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
     background-color: #000;
     opacity: 1;
 }
@@ -48,18 +50,17 @@ button:hover {
     margin:0;
     padding:0;
 }
-#mgultra{
+#mgultra {
     max-height: 700px;
-    width:auto;
+    width: auto;
 }
-aside.imgcontainer{
-    right:0;
-    justify-content: right;
-    align-items: right;
-    margin:0;
-    padding: 0;
-    padding-left: 1px;
-    width:auto;
+aside.imgcontainer {
+    position: absolute;
+    right: 0;
+    top: 0;
+    height: 100%;
+    display: flex;
+    align-items: center;
 }
 table{
     background-color: #f4f4f4;
@@ -69,14 +70,11 @@ table{
     font-size:22px;
     bottom:0;
 }
-main{
-    display: grid;
-    grid-template-columns: 1fr auto;
-    gap: 0px;
-    align-items: start;
-    grid-column: 1/2;
-    max-width:60%;
-
+main {
+    display: flex;
+    flex-direction: column;
+    align-items: center; /* Center content */
+    max-width: 60%;
 }
 .table-header{
     font-size: 1.5em;
@@ -98,8 +96,16 @@ tr{
 .album-name{
     font-weight: bold;
 }
-footer{
-    grid-column:1/2;
+footer {
+    display: flex;
+    justify-content: flex-start;
+    width: 60%;
+    padding: 10px;
+}
+footer a{
+    color: #fff;
+    margin: 10px;
+    bottom:0;
 }
 footer p{
     background-color: #000;
@@ -111,12 +117,20 @@ footer p{
     margin:0;
     bottom:0;
 }
-section{
+article{
     gap: 0px;
     align-items: start;
     grid-column: 1/2;
 }
-section h2{
+article h2{
+    background-color: #000;
+    color: #fff;
+    padding: 10px;
+    width:fit-content;
+    margin:0;
+    font-size:4em;
+}
+article p{
     background-color: #000;
     color: #fff;
     padding: 10px;
@@ -125,20 +139,15 @@ section h2{
     width:fit-content;
     margin:0;
 }
-section p{
-    background-color: #000;
-    color: #fff;
-    padding: 10px;
-    text-align: center;
-    justify-content: center;
-    width:fit-content;
-    margin:0;
+.section{
+    display: block;
+    align-items: end;
 }
 #machinegirl {
-    max-width: 100%;
+    max-width: 70%;
     height: auto;
     display: block;
-    margin: 0 auto;
+    margin: 20px auto; /* Center it */
 }
 /*GOOGLEFONT1*/
 .bebas-neue-regular {
@@ -146,11 +155,7 @@ section p{
     font-weight: 400;
     font-style: normal;
   }
-h2{
-    font-size:2em;
-    width:70%;
-    justify-self: right;
-}
+
 /*GOOGLEFONT2*/
 .caveat{
     font-family: "Caveat", serif;
@@ -159,3 +164,16 @@ h2{
     font-style: normal;
     font-size:1.5em;
   }
+  nav{
+    display: flex;
+    padding: auto;
+  }
+    nav a{
+        padding: 10px;
+        margin: 10px;
+        color: #fff;
+        size-adjust: auto;
+    }
+    i{
+        font-size: 2.6em;
+    }
