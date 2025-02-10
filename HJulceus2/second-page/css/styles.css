@@ -1,0 +1,101 @@
+/* GOOGLEFONTI: Roboto */
+body {
+    font-family: 'Roboto', sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #f4f4f4;
+}
+
+/* GOOGLEFONT2: Open Sans */
+h1, h2 {
+    font-family: 'Open Sans', sans-serif;
+}
+
+/* Header */
+.header {
+    background-color: #333;
+    color: #fff;
+    padding: 10px 0;
+    text-align: center;
+}
+
+/* Navigation */
+.nav ul {
+    list-style-type: none;
+    padding: 0;
+}
+
+.nav ul li {
+    display: inline;
+    margin: 0 15px;
+}
+
+.nav ul li a {
+    color: #fff;
+    text-decoration: none;
+}
+
+/* Main Content */
+.main {
+    padding: 20px;
+    padding-bottom: 100px; /* Prevent footer overlap */
+}
+
+/* Sections */
+.section, .article, .aside {
+    margin-bottom: 20px;
+}
+
+/* Footer */
+.footer {
+    background-color: #333;
+    color: #fff;
+    text-align: center;
+    padding: 10px 0;
+    position: fixed;
+    width: 100%;
+    bottom: 0;
+}
+
+/* Font Awesome Icons */
+.fa-user {
+    color: #555;
+}
+
+.fa-envelope {
+    color: #555;
+}
+
+/* Table Styling with Divs */
+.table {
+    width: 100%;
+    margin-top: 20px;
+}
+
+.table-header, .table-body {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+}
+
+.table-row {
+    display: contents;
+}
+
+.table-cell {
+    padding: 10px;
+    border-bottom: 1px solid #ddd;
+}
+
+.table-header .table-cell {
+    background-color: #333;
+    color: #fff;
+    font-weight: bold;
+}
+
+.table-body .table-row:nth-child(even) .table-cell {
+    background-color: #f2f2f2;
+}
+
+.table-body .table-row:nth-child(odd) .table-cell {
+    background-color: #fff;
+}
