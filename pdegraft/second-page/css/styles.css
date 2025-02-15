@@ -1,0 +1,141 @@
+/* General Styling */
+body {
+    font-family: 'Roboto', sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #f9f9f9;
+    color: #333;
+}
+
+/* Header Styling */
+header {
+    background-color: #ff6f61;
+    color: white;
+    padding: 20px;
+    text-align: center;
+}
+
+header h1 {
+    font-family: 'Pacifico', cursive;
+    margin: 0;
+}
+
+.navigation ul {
+    list-style: none;
+    padding: 0;
+    margin: 10px 0 0;
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+}
+
+.navigation ul li {
+    display: inline;
+}
+
+.navigation ul li a {
+    color: white;
+    text-decoration: none;
+    font-weight: bold;
+}
+
+/* Section Styling */
+.section {
+    padding: 20px;
+    margin: 40px auto;
+    max-width: 1200px;
+    text-align: center;
+}
+
+.section h2 {
+    font-family: 'Pacifico', cursive;
+    margin-bottom: 20px;
+}
+
+/* Content and Aside Styling */
+.content, .aside {
+    background-color: white;
+    border-radius: 10px;
+    padding: 15px;
+    margin: 20px auto;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    max-width: 600px;
+    text-align: left;
+}
+
+.aside {
+    background-color: #f1f1f1;
+}
+
+/* Featured Gifts Styling */
+.gift-container {
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+    flex-wrap: wrap;
+}
+
+.gift-item {
+    background-color: white;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+    padding: 15px;
+    text-align: center;
+    width: 250px;
+}
+
+.gift-item img {
+    width: 100%;
+    height: auto;
+    border-radius: 10px;
+    margin-bottom: 10px;
+}
+
+.gift-item p {
+    font-family: 'Roboto', sans-serif;
+    font-size: 18px;
+    margin: 0;
+}
+
+/* Table Styling */
+.table {
+    display: table;
+    width: 100%;
+    border-collapse: collapse;
+    margin: 0 auto;
+}
+
+.table-row {
+    display: table-row;
+}
+
+.table-cell {
+    display: table-cell;
+    padding: 10px;
+    text-align: left;
+    border: 1px solid #ddd;
+}
+
+.table-row.header {
+    background-color: #333;
+    /* color: white; */
+    font-weight: bold;
+}
+
+.table-row:nth-child(even) {
+    background-color: #f2f2f2;
+}
+
+.table-row:nth-child(odd) {
+    background-color: white;
+}
+
+/* Footer Styling */
+footer {
+    background-color: #333;
+    color: white;
+    text-align: center;
+    padding: 10px;
+    bottom: 0;
+    width: 100%;
+}
