@@ -1,0 +1,65 @@
+/* GOOGLEFONT1 */
+@import url('https://fonts.googleapis.com/css2?family=Diplomata+SC&display=swap');
+/* GOOGLEFONT2 */
+@import url('https://fonts.googleapis.com/css2?family=New+Amsterdam&display=swap');
+
+.logo {
+	font-family: "New Amsterdam", serif;
+	font-weight: 400;
+	font-style: normal;
+	font-size: 48px;
+}
+
+p {
+    font-family: 'Montserrat', serif;
+	font-weight: 400;
+	font-style: normal;
+}
+
+h2 {
+	font-family: "New Amsterdam", serif;
+	font-weight: 400;
+	font-style: normal;
+	font-size: 32px;
+}
+
+table {
+  width: 100%;
+  border-collapse: collapse;
+}
+
+th, td {
+  padding: 8px;
+  text-align: left;
+  border: 1px solid #ddd;
+}
+
+tr:nth-child(even) {
+  background-color: #dbdbdb;
+}
+
+tr:nth-child(odd) {
+  background-color: #ffffff;
+}
+
+nav {
+  border-bottom: 1px solid black;
+}
+
+.crumbs ol {
+  list-style-type: none;
+  padding-left: 0;
+}
+
+.crumb {
+  display: inline-block;
+}
+
+.crumb a::after {
+  display: inline-block;
+  color: #000;
+  content: '>';
+  font-size: 80%;
+  font-weight: bold;
+  padding: 0 3px;
+}
