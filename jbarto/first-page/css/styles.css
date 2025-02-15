@@ -1,0 +1,114 @@
+/* NAVIGATION MENU */
+nav {
+    background-color: #333;
+    padding: 10px;
+    text-align: center;
+}
+
+nav ul {
+    list-style-type: none;
+    padding: 0;
+    margin: 0;
+}
+
+nav ul li {
+    display: inline;
+    margin-right: 20px;
+}
+
+nav ul li a {
+    color: white;
+    text-decoration: none;
+    font-family: "Oswald", sans-serif;
+    font-size: 18px;
+    padding: 10px;
+}
+
+nav ul li a:hover {
+    color: #ff5722; /* Hover color */
+    text-decoration: underline;
+}
+
+
+body {
+/* GOOGLEFONT2 */
+    font-family: "Crimson Text", serif;
+    margin: 0;
+    padding: 0;
+    background-color: #f8f8f8;
+}
+
+/* HEADER */
+header {
+    text-align: center;
+    background-color: #222;
+    color: white;
+    padding: 20px;
+    /* GOOGLEFONT1 */
+    font-family: "Oswald", sans-serif;
+}
+
+/* MAIN TABLE */
+table {
+    width: 100%;
+    border-collapse: collapse;
+    margin-top: 20px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+/* TABLE HEADERS */
+table th {
+    background-color: #222;
+    color: white;
+    padding: 12px;
+    text-align: left;
+}
+
+/* MAIN TABLE CELLS */
+table td {
+    padding: 15px;
+    background: white;
+    border: 2px solid #ddd;
+}
+
+/* IMAGES */
+table td img {
+    width: 100px;
+    height: auto;
+}
+
+/* ICONS */
+table td i {
+    font-size: 24px;
+    color: #ff5722; /* Icon color */
+}
+
+/* FOOTER */
+footer {
+    text-align: center;
+    padding: 10px;
+    background-color: #222;
+    color: white;
+    margin-top: 20px;
+}
+
+/* Alternating row colors */
+table tbody tr:nth-child(even) {
+    background-color: #f0f0f0; /* Light gray for even rows */
+}
+
+table tbody tr:nth-child(odd) {
+    background-color: #ffffff; /* White for odd rows */
+}
+
+/* Hover effect for rows */
+table tbody tr:hover {
+    background-color: #d1e7fd; /* Light blue on hover */
+    transition: background-color 0.3s ease-in-out;
+}
+
+section {
+    padding: 20px;
+    margin: 20px 0;
+}
+
