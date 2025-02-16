@@ -1,0 +1,92 @@
+body {
+    margin: 0;
+    padding: 0;
+    font-family: 'Quicksand', sans-serif;
+    background-color: #f4f4f4;
+}
+
+.header {
+    background-color: #333;
+    color: rgb(255, 255, 255);
+    text-align: center;
+    padding: 15px;
+}
+
+.nav ul {
+    list-style: none;
+    padding: 0;
+}
+
+.nav ul a {
+    color: rgb(255, 255, 255);
+    text-decoration: none;
+}
+
+.main {
+    padding: 20px;
+}
+
+.about-section, .animals-section, .user-favorite-animals, .fun-fact {
+    padding: 20px;
+    margin: 15px 0;
+    background-color: white;
+    border-radius: 5px;
+    box-shadow: 2px 2px 10px rgba(0,0,0,0.1);
+}
+
+.fas {
+    font-size: 24px;
+    margin-right: 10px;
+    color: #333;
+}
+
+/* make table with div */
+.table {
+    width: 100%;
+    display: table;
+    margin-top: 10px;
+}
+
+.table-row {
+    display: table-row;
+}
+
+.table-cell {
+    display: table-cell;
+    padding: 12px;
+    border: 1px solid #ddd;
+    text-align: left;
+}
+
+/* change names to black and bolded */
+.header-row .table-cell {
+    color: black;
+    font-weight: bold;
+}
+
+/* header styling */
+.header-row {
+    background-color: #555;
+    color: white;
+}
+
+.table-row:nth-child(even) {
+    background-color: #f9f9f9;
+}
+
+.table-row:nth-child(odd) {
+    background-color: #e0e0e0;
+}
+
+.fun-fact {
+    background-color: #e3f2fd;
+    padding: 15px;
+    border-left: 5px solid #0288d1;
+}
+
+.footer {
+    text-align: center;
+    padding: 15px;
+    background-color: #222;
+    color: white;
+}
