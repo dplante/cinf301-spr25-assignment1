@@ -1,0 +1,183 @@
+/* GOOGLEFONT1 */
+@import url('https://fonts.googleapis.com/css2?family=Caveat:wght@400..700&display=swap');
+
+/* GOOGLEFONT2 */
+@import url('https://fonts.googleapis.com/css2?family=Amatic+SC:wght@400;700&family=Itim&display=swap');
+
+/* GOOGLEFONT3 */
+@import url('https://fonts.googleapis.com/css2?family=Itim&display=swap');
+
+
+body {
+    font-family: 'Amatic SC', cursive; /* GOOGLEFONT2 */
+    background-color: #7f7d7d;
+    margin: 0;
+    padding: 0;
+}
+
+
+header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 15px 40px;
+    background-color: #333;
+    color: white;
+}
+
+header h1 {
+    font-family: 'Caveat', cursive; /* GOOGLEFONT1 */
+    font-size: 30px;
+    font-weight: bold;
+}
+
+nav {
+    display: flex;
+    gap: 20px;
+}
+
+nav a {
+    font-family: 'Itim', cursive; /* GOOGLEFONT3 */
+    color: white;
+    text-decoration: none;
+    font-size: 20px;
+}
+
+aside {
+    display: flex;
+    gap: 15px;
+}
+
+aside i {
+    font-size: 20px;
+    cursor: pointer;
+}
+
+
+.hero {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 60px;
+    text-align: left;
+}
+
+.hero-text {
+    width: 50%;
+}
+
+.hero-text h2 {
+    font-size: 42px;
+    font-weight: bold;
+    color: black; 
+}
+
+.hero-text span {
+    color: black;
+}
+
+.hero-text p {
+    font-size: 25px;
+    color: white;
+    margin: 15px 0;
+}
+
+.see-btn {
+    font-family: 'Itim', cursive;
+    background-color: #333;
+    color: white;
+    border: none;
+    padding: 10px 20px;
+    font-size: 18px;
+    cursor: pointer;
+    border-radius: 5px;
+}
+
+
+.hero-image {
+    width: 50%;
+    text-align: center;
+}
+
+.hero-image img {
+    width: 400px;
+}
+.second-image {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap; 
+    gap: 20px;
+    margin-top: -30px;
+    overflow: hidden;
+}
+
+.second-image figure {
+    margin: 0;
+    padding: 0;
+}
+
+.second-image img {
+    width: 150px; 
+    height: auto;
+}
+
+
+.product-table {
+    padding: 40px;
+    text-align: center;
+}
+
+.product-table h2 {
+    font-size: 28px;
+    color: black;
+    margin-bottom: 20px;
+}
+
+table {
+    width: 100%;
+    border-collapse: collapse;
+    font-size: 18px;
+}
+
+thead tr {
+    background-color: #333; /* TABLEHEADER */
+    color: white;
+}
+
+th, td {
+    padding: 12px;
+    border: 1px solid #ddd;
+}
+
+tbody tr:nth-child(odd) {  /* TABLE-ODD */
+    background-color: rgba(179, 84, 84, 0.73);
+}
+
+tbody tr:nth-child(even) { /* TABLE-EVEN */
+    background-color: #d8d98c;
+}
+
+footer {
+    background-color: #333;
+    color: white;
+    text-align: center;
+    padding: 20px;
+    margin-top: 20px;
+}
+
+footer .social-media a {
+    color: white;
+    margin: 0 10px;
+    font-size: 20px;
+}
+
+footer nav {
+    margin-top: 10px;
+}
+
+footer nav a {
+    color: white;
+    margin: 0 15px;
+    font-size: 14px;
+}
